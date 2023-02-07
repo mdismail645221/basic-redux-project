@@ -17,7 +17,7 @@ const Product = () => {
     return (
         <div className='grid md:grid-cols-3'>
             {
-                products.map(product=> <ProductCard key={product._id} product={product}></ProductCard>)
+                products.sort((a, b)=> a._id - b._id).map(product=> <ProductCard key={product._id} product={product}></ProductCard>)
             }
         </div>
     );
