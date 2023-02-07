@@ -1,0 +1,25 @@
+.menu-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: #007AFE;
+    align-items: center;
+    color: #ffffff;
+}
+
+
+.logo{
+    color: #ffffff;
+}
+
+.menu-container ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu-container ul li a{
+    margin-right: 2rem;
+    color: #ffffff; 
+    padding: 1rem 0;
+}
+
