@@ -14,7 +14,7 @@ const Navbar = () => {
                         isActive ? `activeClassName` : undefined
                     }>Home</NavLink></li>
                     <li><NavLink to="/product" className={({ isActive }) => isActive ? `activeClassName` : undefined}>Product</NavLink></li>
-                    <li ><NavLink to="/">Save my Product</NavLink></li>
+                    <li ><NavLink to="/storeCart" className={({ isActive }) => isActive ? `activeClassName` : undefined}>Store Cart</NavLink></li>
                 </ul>
             </nav> 
         </>
